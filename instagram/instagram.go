@@ -108,6 +108,7 @@ type Parameters struct {
 	Count        uint64
 	Cursor       string
 	MinID        string
+	MinTagID     string `json:"min_tag_id"`
 	MaxID        string
 	MinTimestamp int64
 	MaxTimestamp int64
